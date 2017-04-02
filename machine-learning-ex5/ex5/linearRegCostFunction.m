@@ -26,7 +26,7 @@ sumSquerPart = sum((H-y).^2) ;
 
 J = 1/(2*m)*sumSquerPart+regPart;
 
-
+grad = (X'*(H-y))/m+lambda/m*theta1;
 
 % =========================================================================
 
